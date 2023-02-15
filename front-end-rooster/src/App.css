@@ -110,4 +110,35 @@
 
 .leftSectionHeader{
   margin-bottom: -0.1em;
+  color: purple;
+}
+
+.sectionTwo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 'image image';
+  height: 80vh;
+  background-image: url(../Assets/banner-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.leftSectionTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.leftSectionHeaderTwo {
+  color: purple;
+  font-size: 3em;
+}
+
+.leftSectionButtonTwo{
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 1.3em;
 }
