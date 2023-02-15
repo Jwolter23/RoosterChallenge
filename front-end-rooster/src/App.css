@@ -142,3 +142,132 @@
   border: none;
   padding: 1.3em;
 }
+
+/* section3 */
+
+.sectionThree {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 60vh;
+}
+
+.leftSectionThree{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.leftContentThree{
+  width: 30em;
+  border: 1px solid purple;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1.5em;
+}
+
+.leftSectionButtonThree{
+  background-color: purple;
+  color: white;
+  border: none;
+  padding: 0.5em;
+  width: 8em;
+}
+
+.leftSectionButtonThree:hover{
+  cursor: pointer;
+}
+
+.leftSectionHeaderThree{
+  margin-bottom: -0.1em;
+  color: purple;
+}
+
+.rightSectionThree {
+  background-color: rgb(245, 245, 244);
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+          'item1 item2'
+          'item3 item4';
+  
+  
+  }
+
+  .item1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: item1;
+    
+  }
+  .svg1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+    width: 5em;
+    padding: 1em;
+    border-radius: 50%;
+    background: url(../Assets/home-expertise.svg) no-repeat center center;
+    background-size: 4em;
+    border: 1px solid purple;
+  }
+  .item2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: item2;
+
+  }
+  .svg2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+    width: 5em;
+    padding: 1em;
+    border-radius: 50%;
+    background: url(../Assets/home-hygiene.svg) no-repeat center center;
+    background-size: 4em;
+    border: 1px solid purple;
+  }
+  .item3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: item3;
+    
+  }
+  .svg3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+    width: 5em;
+    padding: 1em;
+    border-radius: 50%;
+    background: url(../Assets/home-lab.svg) no-repeat center center;
+    background-size: 4em;
+    border: 1px solid purple;
+  }
+  .item4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: item4;
+  
+  }
+  .svg4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+    width: 5em;
+    padding: 1em;
+    border-radius: 50%;
+    background: url(../Assets/home-retention.svg) no-repeat center center;
+    background-size: 4em;
+    border: 1px solid purple;
+  }

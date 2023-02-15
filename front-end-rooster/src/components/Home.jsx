@@ -37,6 +37,29 @@ export default function Home () {
                 <div className="rightSectionTwo">
                 </div>
             </div>
+            <div className="sectionThree">
+                <div className="leftSectionThree">
+                    <div className="leftContentThree">
+                        <h1 className="leftSectionHeaderThree">LOREM IPSUM</h1>
+                        <p className="leftSectionBodyThree">Lorem ipsum dolor sit amet, et felis intger. Cras ac, duis nisl magna est sociis, neque in odio vel, sit lobortis erat. Fugit quam, ut pede ut ante, in viverra eros dictum nisl ligula, lacus est vehicula donec. Quam in ac quam. Duis et, non arcu imperdiet sem tellus suspendisse. Condimentum non aliquet sed, quique risus vitae semper duis feugiat.</p>
+                        <button className="leftSectionButtonThree">Lorem Ipsum</button>
+                    </div>
+                </div>
+                <div className="rightSectionThree">
+                        <div className="item1">
+                            <div className="svg1"></div>
+                        </div>
+                        <div className="item2">
+                            <div className="svg2"></div>
+                        </div>
+                        <div className="item3">
+                            <div className="svg3"></div>
+                        </div>
+                        <div className="item4">
+                            <div className="svg4"></div>
+                        </div>
+                    </div>
+            </div>
         </div>
     )
 }
