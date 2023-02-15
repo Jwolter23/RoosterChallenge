@@ -48,17 +48,21 @@ export default function Home () {
                 <div className="rightSectionThree">
                         <div className="item1">
                             <div className="svg1"></div>
+                            <div className="text1">LOREM</div>
                         </div>
                         <div className="item2">
                             <div className="svg2"></div>
+                            <div className="text2">LOREM IPSUM</div>
                         </div>
                         <div className="item3">
                             <div className="svg3"></div>
+                            <div className="text3">LOREM IPSUM</div>
                         </div>
                         <div className="item4">
                             <div className="svg4"></div>
+                            <div className="text4">LOREM</div>
                         </div>
-                    </div>
+                </div>
             </div>
         </div>
     )
