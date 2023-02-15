@@ -10,11 +10,38 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+
+}
+.welcomeContent{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.welcomeText{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcomeTo{
+  color: white;
+  font-size: 5em;
+}
+.roosterGrin{
+  color: white;
+  font-size: 3.5em;
+  margin-top: -0.8em;
 }
 
 .roosterLogoBox{
   border: 1px solid green;
-  margin-top: 1em;
+  
 }
 
 .roosterLogo{
@@ -23,4 +50,18 @@
   font-size: 2.5em;
   margin-left: 3.5em;
   
+}
+
+.welcomeButtonBox{
+  border: 1px solid purple;
+}
+
+.welcomeButton{
+  background-color: orange;
+  color: white;
+  font-size: 1.5em;
+  padding: 0.5em;
+}
+.welcomeButton:hover{
+  cursor: pointer;
 }
