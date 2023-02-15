@@ -1,7 +1,12 @@
 export default function Home () {
     return(
         <div className="wholeScreen">
-            <h1>Hello World!</h1>
+            
+            <div className="welcomeScreen">
+                <div className="roosterLogoBox">
+                <h1 className="roosterLogo">RoosterGrin</h1>
+                </div>
+            </div>
         </div>
     )
 }
