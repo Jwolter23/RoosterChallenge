@@ -35,7 +35,6 @@ export default function Home () {
                     </div>
                 </div>
                 <div className="rightSectionTwo">
-
                 </div>
             </div>
         </div>
