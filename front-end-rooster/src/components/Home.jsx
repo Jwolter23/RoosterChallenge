@@ -16,6 +16,19 @@ export default function Home () {
                     </div>
                 </div>
             </div>
+            <div className="sectionOne">
+                <div className="leftSection">
+                    <div className="leftContent">
+                        <h1 className="leftSectionHeader">Lorem Ipsum</h1>
+                        <p className="leftSectionBody">Lorem ipsum dolor sit amet, et felis intger. Cras ac, duis nisl magna est sociis, neque in odio vel, sit lobortis erat. Fugit quam, ut pede ut ante, in viverra eros dictum nisl ligula, lacus est vehicula donec. Quam in ac quam. Duis et, non arcu imperdiet sem tellus suspendisse. Condimentum non aliquet sed, quique risus vitae semper duis feugiat.</p>
+                        <button className="leftSectionButton">Lorem Ipsum</button>
+                    </div>
+                </div>
+                <div className="rightSection">
+                    
+                </div>
+
+            </div>
         </div>
     )
 }
