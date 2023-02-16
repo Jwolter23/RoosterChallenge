@@ -451,7 +451,6 @@
 
 /* Hero Section */
 @media (max-width: 768px) {
-  /* adjust styles for small screens */
   .welcomeTo {
     font-size: 3.5em;
   }
@@ -493,3 +492,89 @@
     margin-top: 1em;
   }
 }
+
+/* Section Two */
+@media (max-width: 768px) {
+  .sectionTwo {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'image' 'leftSection';
+    height: auto;
+  }
+  .leftSectionTwo {
+    grid-area: leftSection;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+  }
+  .leftSectionHeaderTwo {
+    font-size: 1.5em;
+  }
+  .leftSectionButtonTwo {
+    padding: 0.4em;
+  }
+}
+
+/* section three */
+@media (max-width: 768px) {
+  .sectionThree {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  .leftSectionThree {
+    justify-content: center;
+  }
+
+  .leftContentThree {
+    width: 80%;
+    margin-bottom: 2em;
+  }
+
+  .item1, .item2, .item3, .item4 {
+    margin: 0;
+  }
+}
+
+/* Section Four */
+
+@media (max-width: 768px) {
+  .sectionFour {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+      'image image';
+    height: auto;
+  }
+
+  .rightSectionFour {
+    order: 1;
+  }
+
+  .rightContentFour {
+    width: 90%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .rightSectionHeaderFour {
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .rightSectionBodyFour {
+    width: 100%;
+  }
+
+  .rightSectionButtonFour {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    width: fit-content;
+  }
+}
+
+
+
