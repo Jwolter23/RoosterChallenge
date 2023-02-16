@@ -42,15 +42,16 @@ const Carousel = () => {
     return (
         <div className='carousel'>
             
-            <button onClick={handlePrevious}>Previous</button>
+            
             
             <div className='carouselContent'>
             <h3 className='carouselAuthor'>{author}</h3>
             <p className='carouselParagraph'>{paragraph}</p>
             </div>
-            
-            <button onClick={handleNext}>Next</button>
-            
+            <div className='buttons'>
+            <button className='carouselButtons' onClick={handlePrevious}>Previous</button>
+            <button className='carouselButtons' onClick={handleNext}>Next</button>
+            </div>
         </div>
     )
 }

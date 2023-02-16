@@ -576,5 +576,67 @@
   }
 }
 
+/* Section Five */
+@media (max-width: 768px) {
+  .sectionFive {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
 
+  .leftSectionFive {
+    justify-content: center;
+  }
+
+  .leftContentFive {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .leftSectionHeaderFive {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .rightSectionFive {
+    justify-content: center;
+  }
+
+  .carousel {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carouselContent {
+    width: 100%;
+    margin-top: 1em;
+    border: 1px solid red;
+  }
+
+  .carouselAuthor {
+    text-align: center;
+    margin-bottom: 0.5em;
+  }
+
+  .carouselParagraph {
+    width: 100%;
+    text-align: left;
+    padding: 0.5;
+  }
+  .carouselButtons{
+    width: 5em;
+    display: flex;
+    justify-content: center;
+  }
+  .buttons{
+    display: flex;
+    justify-content: space-around;
+    width: 20em;
+  }
+  .reactStars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
