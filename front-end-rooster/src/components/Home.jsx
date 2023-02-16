@@ -1,5 +1,6 @@
 import ReactStars from 'react-stars'
 import React from 'react'
+import Carousel from './carousel'
 
 export default function Home () {
 
@@ -99,7 +100,7 @@ export default function Home () {
                     </div>
                 </div>
                 <div className="rightSectionFive">
-
+                        <Carousel />
                 </div>
             </div>
         </div>

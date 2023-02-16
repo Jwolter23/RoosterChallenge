@@ -360,3 +360,46 @@
 .leftSectionHeaderFive{
   margin-bottom: -0.1em;
 }
+
+.rightSectionFive{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.carousel{
+  width: 35em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.carouselContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.carouselAuthor{
+  color: purple;
+  margin-bottom: 0.1em;
+  
+}
+
+.carouselParagraph{
+  width: 25em;
+  display: inline-block;
+  
+}
+
+.carouselButtons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
