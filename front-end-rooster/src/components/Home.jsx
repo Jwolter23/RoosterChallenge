@@ -1,4 +1,12 @@
+import ReactStars from 'react-stars'
+import React from 'react'
+
 export default function Home () {
+
+    const ratingChanged = (newRating) => {
+        console.log(newRating)
+      }
+
     return(
         <div className="wholeScreen">
             <div className="welcomeScreen">
@@ -73,6 +81,25 @@ export default function Home () {
                         <p className="rightSectionBodyFour">Lorem ipsum dolor sit amet, et felis integer. Cras ac, duis nisl magna est sociis, neque in odio vel, sit lobortis erat. Fugit quam, ut pede ut ante, in viverra eros dictum nisl ligula.</p>
                         <button className="rightSectionButtonFour">BUTTON BUTTON</button>
                     </div>
+                </div>
+            </div>
+            <div className="sectionFive">
+                <div className="leftSectionFive">
+                    <div className="leftContentFive">
+                        <h1 className="leftSectionHeaderFive">LOREM IPSUM <br></br>DOLOR SIT AMET</h1>
+                        <div className='reactStars'>
+                            <ReactStars
+                            count={5}
+                            value={5}
+                            edit={false}
+                            size={24}
+                            color2={'#ffd700'} />
+                        </div>
+                        
+                    </div>
+                </div>
+                <div className="rightSectionFive">
+
                 </div>
             </div>
         </div>

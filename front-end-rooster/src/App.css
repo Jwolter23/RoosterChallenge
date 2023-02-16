@@ -145,6 +145,10 @@
   padding: 1.3em;
 }
 
+.leftSectionButtonTwo{
+  cursor: pointer;
+}
+
 /* section3 */
 
 .sectionThree {
@@ -325,3 +329,34 @@
     padding: 1.2em;
     width: 15em;
   }
+
+  .rightSectionButtonFour:hover{
+    cursor: pointer;
+  }
+
+/* Section 5 */
+
+.sectionFive {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 60vh;
+}
+
+.leftSectionFive{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.leftContentFive{
+  width: 30em;
+  border: 1px solid purple;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1.5em;
+}
+
+.leftSectionHeaderFive{
+  margin-bottom: -0.1em;
+}
