@@ -113,6 +113,8 @@
   color: purple;
 }
 
+/* section 2 */
+
 .sectionTwo {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -281,4 +283,45 @@
     font-weight: bold;
     padding: 0.3em;
     margin-top: 0.3em;
+  }
+
+  /* section 4 */
+
+  .sectionFour{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 'image image';
+  height: 80vh;
+  background-image: url(../Assets/banner-2.jpg);
+  background-size: cover;
+  background-position: center;
+  }
+
+  .rightSectionFour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rightContentFour{
+    border: 1px solid purple;
+    width: 30em;
+  }
+  
+  
+  .rightSectionHeaderFour {
+    color: purple;
+    font-size: 3em;
+  }
+
+  .rightSectionBodyFour{
+    width: 21em;
+  }
+  
+  .rightSectionButtonFour{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 1.2em;
+    width: 15em;
   }

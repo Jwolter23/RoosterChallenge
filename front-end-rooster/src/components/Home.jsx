@@ -64,6 +64,17 @@ export default function Home () {
                         </div>
                 </div>
             </div>
+            <div className="sectionFour">
+                <div className="leftSectionFour">
+                </div>
+                <div className="rightSectionFour">
+                    <div className="rightContentFour">
+                        <h1 className="rightSectionHeaderFour">LOREM IPSUM</h1>
+                        <p className="rightSectionBodyFour">Lorem ipsum dolor sit amet, et felis integer. Cras ac, duis nisl magna est sociis, neque in odio vel, sit lobortis erat. Fugit quam, ut pede ut ante, in viverra eros dictum nisl ligula.</p>
+                        <button className="rightSectionButtonFour">BUTTON BUTTON</button>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
