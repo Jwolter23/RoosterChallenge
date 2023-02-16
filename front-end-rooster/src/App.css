@@ -68,6 +68,8 @@
   cursor: pointer;
 }
 
+/* section One */
+
 .sectionOne {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -97,7 +99,7 @@
 }
 
 .leftSectionButton{
-  background-color: purple;
+  background-color: #7d4497;
   color: white;
   border: none;
   padding: 0.5em;
@@ -110,7 +112,7 @@
 
 .leftSectionHeader{
   margin-bottom: -0.1em;
-  color: purple;
+  color: #7d4497;
 }
 
 /* section 2 */
@@ -134,12 +136,12 @@
 
 
 .leftSectionHeaderTwo {
-  color: purple;
+  color: #7d4497;
   font-size: 3em;
 }
 
 .leftSectionButtonTwo{
-  background-color: orange;
+  background-color: #f87119;
   color: white;
   border: none;
   padding: 1.3em;
@@ -173,7 +175,7 @@
 }
 
 .leftSectionButtonThree{
-  background-color: purple;
+  background-color: #7d4497;
   color: white;
   border: none;
   padding: 0.5em;
@@ -186,11 +188,11 @@
 
 .leftSectionHeaderThree{
   margin-bottom: -0.1em;
-  color: purple;
+  color: #7d4497;
 }
 
 .rightSectionThree {
-  background-color: rgb(245, 245, 244);
+  background-color: rgba(250,251,251,255);
   display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -314,7 +316,7 @@
   
   
   .rightSectionHeaderFour {
-    color: purple;
+    color: #7d4497;
     font-size: 3em;
   }
 
@@ -323,7 +325,7 @@
   }
   
   .rightSectionButtonFour{
-    background-color: orange;
+    background-color: #f87119;
     color: white;
     border: none;
     padding: 1.2em;
@@ -350,7 +352,6 @@
 
 .leftContentFive{
   width: 30em;
-  border: 1px solid purple;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -358,7 +359,9 @@
 }
 
 .leftSectionHeaderFive{
-  margin-bottom: -0.1em;
+  font-size: 2.5em;
+  padding: 0.1em;
+  margin-bottom: -0.02em;
 }
 
 .rightSectionFive{
@@ -386,7 +389,7 @@
 }
 
 .carouselAuthor{
-  color: purple;
+  color: #7d4497;
   margin-bottom: 0.1em;
   
 }
@@ -405,9 +408,11 @@
   
 }
 
+/* footer */
+
 .footer{
   height: 15vh;
-  background-color: rgb(245, 245, 244);
+  background-color: rgba(250,251,251,255);
   display: flex;
   justify-content: center;
   align-items: center;

@@ -94,7 +94,8 @@ export default function Home () {
                             value={5}
                             edit={false}
                             size={24}
-                            color2={'#ffd700'} />
+                            color1={'#f87216'} 
+                            color2={'#f87216'}/>
                         </div>
                         
                     </div>
