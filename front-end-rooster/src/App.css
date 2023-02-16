@@ -469,8 +469,17 @@
 
   .roosterGrin {
     font-size: 3em;
+    
   }
+  .roosterLogo{
+    display: flex;
+    justify-content:left;
+    
 
+  }
+  .roosterLogoBox{
+    margin: 0;
+  }
   .roosterLogo {
     font-size: 1.5em;
     margin-left: 1.5em;
@@ -491,7 +500,7 @@
   }
   
   .rightSection {
-    height: 40vh;
+    height: 30vh;
   }
   
   .leftContent {
@@ -514,7 +523,7 @@
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: auto auto;
     grid-template-areas: 'image image';
-    height: 15em; 
+    height: 16em; 
   }
 
   .leftSectionTwo {
@@ -544,6 +553,7 @@
   .sectionThree {
     grid-template-columns: 1fr;
     height: auto;
+    margin: 1em 0;
   }
 
   .leftSectionThree {
@@ -553,6 +563,7 @@
   .leftContentThree {
     width: 80%;
     margin-bottom: 2em;
+    
   }
 
   .item1, .item2, .item3, .item4 {
@@ -579,6 +590,11 @@
     width: 90%;
     margin-top: 1em;
     margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
   }
 
   .rightSectionHeaderFour {
@@ -593,6 +609,7 @@
   .rightSectionButtonFour {
     display: flex;
     justify-content: center;
+    
     width: 90%;
     margin-top: 0.5em;
     padding: 0.5em;
