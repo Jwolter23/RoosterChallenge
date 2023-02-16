@@ -394,6 +394,7 @@
 .carouselParagraph{
   width: 25em;
   display: inline-block;
+  margin-top: 0.1em;
   
 }
 
