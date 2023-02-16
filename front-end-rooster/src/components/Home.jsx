@@ -103,6 +103,16 @@ export default function Home () {
                         <Carousel />
                 </div>
             </div>
+            <div className='footer'>
+                <div className='footerContent'>
+                    <h4>Follow Us:</h4>
+                    <div className='socialsContainer'>
+                    <div className='instagram'></div>
+                    <div className='facebook'></div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     )
 }

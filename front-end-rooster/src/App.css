@@ -404,3 +404,38 @@
   align-items: center;
   
 }
+
+.footer{
+  height: 15vh;
+  background-color: rgb(245, 245, 244);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 7em;
+  width: 15em;
+}
+
+.socialsContainer{
+  display: flex;
+  width: 8em;
+  justify-content: space-around;
+}
+
+.instagram{
+  height: 3em;
+  width: 3em;
+  background-image:  url(../Assets/instagram.svg);
+  
+}
+.facebook{
+  height: 3em;
+  width: 3em;
+  background-image:  url(../Assets/facebook.svg);
+}
