@@ -28,15 +28,19 @@
   border: 1px solid red;
   justify-content: center;
   align-items: center;
+  height: 15em;
 }
 
 .welcomeTo{
-  color: white;
-  font-size: 5em;
+    color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    font-size: 5em;
 }
 .roosterGrin{
   color: white;
-  font-size: 3.5em;
+  font-size: 4.5em;
+  letter-spacing: 0.1em;
   margin-top: -0.8em;
 }
 
@@ -53,12 +57,8 @@
   
 }
 
-.welcomeButtonBox{
-  
-}
-
 .welcomeButton{
-  background-color: orange;
+  background-color: #ac5fd1;
   color: white;
   font-size: 1.5em;
   padding: 0.5em;
@@ -99,8 +99,8 @@
 }
 
 .leftSectionButton{
-  background-color: #7d4497;
-  color: white;
+  color: #7d4497;
+  text-decoration: none;
   border: none;
   padding: 0.5em;
   width: 8em;
@@ -108,6 +108,7 @@
 
 .leftSectionButton:hover{
   cursor: pointer;
+  color: #ac5fd1;
 }
 
 .leftSectionHeader{
@@ -175,8 +176,8 @@
 }
 
 .leftSectionButtonThree{
-  background-color: #7d4497;
-  color: white;
+  color: #7d4497;
+  text-decoration: none;
   border: none;
   padding: 0.5em;
   width: 8em;
@@ -184,6 +185,7 @@
 
 .leftSectionButtonThree:hover{
   cursor: pointer;
+  color: #ac5fd1;
 }
 
 .leftSectionHeaderThree{

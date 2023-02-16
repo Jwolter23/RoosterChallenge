@@ -21,7 +21,7 @@ export default function Home () {
                         <h2 className="roosterGrin">Rooster Grin</h2>
                     </div>
                     <div className="welcomeButtonBox">
-                        <button className="welcomeButton">Explore</button>
+                        <button className="welcomeButton">Button Button</button>
                     </div>
                 </div>
             </div>
@@ -30,7 +30,7 @@ export default function Home () {
                     <div className="leftContent">
                         <h1 className="leftSectionHeader">LOREM IPSUM</h1>
                         <p className="leftSectionBody">Lorem ipsum dolor sit amet, et felis intger. Cras ac, duis nisl magna est sociis, neque in odio vel, sit lobortis erat. Fugit quam, ut pede ut ante, in viverra eros dictum nisl ligula, lacus est vehicula donec. Quam in ac quam. Duis et, non arcu imperdiet sem tellus suspendisse. Condimentum non aliquet sed, quique risus vitae semper duis feugiat.</p>
-                        <button className="leftSectionButton">Lorem Ipsum</button>
+                        <a className='leftSectionButton' href="https://www.roostergrin.com/" target="_blank"> &gt; Lorem Ipsum</a>
                     </div>
                 </div>
                 <div className="rightSection">
@@ -51,7 +51,7 @@ export default function Home () {
                     <div className="leftContentThree">
                         <h1 className="leftSectionHeaderThree">LOREM IPSUM</h1>
                         <p className="leftSectionBodyThree">Lorem ipsum dolor sit amet, et felis intger. Cras ac, duis nisl magna est sociis, neque in odio vel, sit lobortis erat. Fugit quam, ut pede ut ante, in viverra eros dictum nisl ligula, lacus est vehicula donec. Quam in ac quam. Duis et, non arcu imperdiet sem tellus suspendisse. Condimentum non aliquet sed, quique risus vitae semper duis feugiat.</p>
-                        <button className="leftSectionButtonThree">Lorem Ipsum</button>
+                        <a className='leftSectionButtonThree' href="https://www.roostergrin.com/" target="_blank"> &gt; Lorem Ipsum</a>
                     </div>
                 </div>
                 <div className="rightSectionThree">
