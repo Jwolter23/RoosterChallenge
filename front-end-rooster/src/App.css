@@ -402,12 +402,16 @@
   margin-top: 0.1em;
   
 }
-
+.buttons{
+  display: flex;
+  width: 20em;
+  justify-content: space-between;
+}
 .carouselButtons{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  
+  width: 5em;
 }
 
 /* footer */
@@ -451,19 +455,29 @@
 
 /* Hero Section */
 @media (max-width: 768px) {
+  .welcomeText {
+    height: 10em;
+  }
+
+  .welcomeScreen{
+    background-position: center center;
+  }
+
   .welcomeTo {
     font-size: 3.5em;
   }
+
   .roosterGrin {
     font-size: 3em;
-    margin-top: -0.6em;
   }
+
   .roosterLogo {
-    font-size: 2em;
-    margin-left: 2.5em;
+    font-size: 1.5em;
+    margin-left: 1.5em;
   }
+
   .welcomeButton {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 }
 
@@ -472,48 +486,58 @@
 /* Section One*/
 @media (max-width: 768px) {
   .sectionOne {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     height: auto;
-    
   }
-
-  .leftSection {
-    order: 2;
-    justify-content: center;
-    text-align: center;
+  
+  .rightSection {
+    height: 40vh;
   }
-
+  
   .leftContent {
-    width: 80%;
-  }
-
-  .leftSectionButton {
     width: 100%;
-    margin-top: 1em;
+    padding: 1em;
+  }
+  
+  .leftSectionHeader {
+    font-size: 2em;
+  }
+  
+  .leftSectionButton {
+    padding: 0.3em;
   }
 }
 
 /* Section Two */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .sectionTwo {
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 'image' 'leftSection';
-    height: auto;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: auto auto;
+    grid-template-areas: 'image image';
+    height: 15em; 
   }
+
   .leftSectionTwo {
-    grid-area: leftSection;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 1em;
+    align-items: flex-end; 
+    padding: 1em; 
   }
-  .leftSectionHeaderTwo {
-    font-size: 1.5em;
-  }
-  .leftSectionButtonTwo {
-    padding: 0.4em;
-  }
+
+.leftSectionHeaderTwo {
+  color: #7d4497;
+  font-size: 1.1em;
+  margin-bottom: -0.01em;
 }
+
+.leftSectionButtonTwo {
+  background-color: #f87119;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 0.2em;
+  padding: 0.9em 0.9em;
+}
+}
+
 
 /* section three */
 @media (max-width: 768px) {
