@@ -18,7 +18,7 @@ export default function Home () {
                         <h2 className="roosterGrin">Rooster Grin</h2>
                     </div>
                     <div className="welcomeButtonBox">
-                        <button className="welcomeButton">Button Button</button>
+                        <a href='https://www.roostergrin.com/' target='_blank'><button className="welcomeButton">Button Button</button></a>
                     </div>
                 </div>
             </div>
@@ -27,7 +27,7 @@ export default function Home () {
                     <div className="leftContent">
                         <h1 className="leftSectionHeader">LOREM IPSUM</h1>
                         <p className="leftSectionBody">Lorem ipsum dolor sit amet, et felis intger. Cras ac, duis nisl magna est sociis, neque in odio vel, sit lobortis erat. Fugit quam, ut pede ut ante, in viverra eros dictum nisl ligula, lacus est vehicula donec. Quam in ac quam. Duis et, non arcu imperdiet sem tellus suspendisse. Condimentum non aliquet sed, quique risus vitae semper duis feugiat.</p>
-                        <a className='leftSectionButton' href="https://www.roostergrin.com/" target="_blank"> &gt; Lorem Ipsum</a>
+                        <a className='leftSectionButton' href="https://www.roostergrin.com/about" target="_blank"> &gt; Lorem Ipsum</a>
                     </div>
                 </div>
                 <div className="rightSection">
@@ -37,7 +37,7 @@ export default function Home () {
                 <div className="leftSectionTwo">
                     <div className="leftContentTwo">
                     <h1 className="leftSectionHeaderTwo">LOREM IPSUM</h1>
-                    <button className="leftSectionButtonTwo">BUTTON BUTTON</button>
+                    <a href='https://www.roostergrin.com/#case-studies' target='_blank'><button className="leftSectionButtonTwo">BUTTON BUTTON</button></a>
                     </div>
                 </div>
                 <div className="rightSectionTwo">
@@ -48,7 +48,7 @@ export default function Home () {
                     <div className="leftContentThree">
                         <h1 className="leftSectionHeaderThree">LOREM IPSUM <br></br> DOLOR SIT AMET</h1>
                         <p className="leftSectionBodyThree">Lorem ipsum dolor sit amet, et felis intger. Cras ac, duis nisl magna est sociis, neque in odio vel, sit lobortis erat. Fugit quam, ut pede ut ante, in viverra eros dictum nisl ligula, lacus est vehicula donec. Quam in ac quam. Duis et, non arcu imperdiet sem tellus suspendisse. Condimentum non aliquet sed, quique risus vitae semper duis feugiat.</p>
-                        <a className='leftSectionButtonThree' href="https://www.roostergrin.com/" target="_blank"> &gt; Lorem Ipsum</a>
+                        <a className='leftSectionButtonThree' href="https://www.roostergrin.com/web" target="_blank"> &gt; Lorem Ipsum</a>
                     </div>
                 </div>
                 <div className="rightSectionThree">
@@ -77,7 +77,7 @@ export default function Home () {
                     <div className="rightContentFour">
                         <h1 className="rightSectionHeaderFour">LOREM IPSUM</h1>
                         <p className="rightSectionBodyFour">Lorem ipsum dolor sit amet, et felis integer. Cras ac, duis nisl magna est sociis, neque in odio vel, sit lobortis erat. Fugit quam, ut pede ut ante, in viverra eros dictum nisl ligula.</p>
-                        <button className="rightSectionButtonFour">BUTTON BUTTON</button>
+                        <a href='https://www.roostergrin.com/thread' target='_blank'><button className="rightSectionButtonFour">BUTTON BUTTON</button></a>
                     </div>
                 </div>
             </div>
