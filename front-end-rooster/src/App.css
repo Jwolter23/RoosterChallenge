@@ -78,11 +78,13 @@
   font-weight: bold;
   padding: 1em;
   border: none;
+  transition: box-shadow 0.3s ease-in-out;
 }
 .welcomeButton:hover{
   cursor: pointer;
   color: black;
   box-shadow: -10px 5px 5px #ac5fd1;
+
 }
 
 /* section One */
@@ -170,11 +172,13 @@
 }
 
 .leftSectionButtonTwo{
-  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out;
   
 }
 
 .leftSectionButtonTwo:hover {
+  cursor: pointer;
+  color: black;
   box-shadow: -10px 5px 5px #f87119;
 }
 
@@ -389,11 +393,14 @@
     border: none;
     padding: 1.2em;
     width: 15em;
+    transition: box-shadow 0.3s ease-in-out;
+    
   }
 
   .rightSectionButtonFour:hover{
     cursor: pointer;
-    box-shadow: -10px 5px 5px #f87119;
+    color: black;
+    box-shadow: 10px 5px 5px #f87119;
   }
 
 /* Section 5 */
