@@ -76,7 +76,7 @@
   color: white;
   font-size: 1em;
   font-weight: bold;
-  padding: 1em;
+  padding: 1.1em;
   border: none;
   transition: box-shadow 0.3s ease-in-out;
 }
@@ -123,6 +123,7 @@
   padding: 0.5em;
   width: 8em;
   transition: all .2s ease-in-out;
+  
 }
 
 .leftSectionButton:hover{
@@ -137,6 +138,11 @@
   margin-bottom: 0.1em;
   font-size: 3em;
   color: #7d4497;
+  font-family: 'Playfair Display', serif;
+}
+
+.leftSectionBody{
+  font-family: 'Manrope', sans-serif;
 }
 
 /* section 2 */
@@ -162,13 +168,15 @@
 .leftSectionHeaderTwo {
   color: #7d4497;
   font-size: 3em;
+  font-family: 'Playfair Display', serif;
 }
 
 .leftSectionButtonTwo{
   background-color: #f87119;
   color: white;
   border: none;
-  padding: 1.5em 2em;
+  padding: 1.1em;
+  
 }
 
 .leftSectionButtonTwo{
@@ -204,6 +212,10 @@
   padding: 1.5em;
 }
 
+.leftSectionBodyThree{
+  font-family: 'Manrope', sans-serif;
+}
+
 .leftSectionButtonThree{
   color: #7d4497;
   text-decoration: none;
@@ -221,6 +233,7 @@
 
 .leftSectionHeaderThree{
   margin-bottom: -0.1em;
+  font-family: 'Playfair Display', serif;
   
 }
 
@@ -232,8 +245,6 @@
     grid-template-areas: 
           'item1 item2'
           'item3 item4';
-  
-  
   }
 
   .item1 {
@@ -381,18 +392,20 @@
   .rightSectionHeaderFour {
     color: #7d4497;
     font-size: 3em;
+    font-family: 'Playfair Display', serif;
   }
 
   .rightSectionBodyFour{
     width: 21em;
+    font-family: 'Manrope', sans-serif;
   }
   
   .rightSectionButtonFour{
     background-color: #f87119;
     color: white;
     border: none;
-    padding: 1.2em;
-    width: 15em;
+    padding: 1.1em;
+    width: 13em;
     transition: box-shadow 0.3s ease-in-out;
     
   }
@@ -429,6 +442,7 @@
   font-size: 2.5em;
   padding: 0.1em;
   margin-bottom: -0.02em;
+  font-family: 'Playfair Display', serif;
 }
 
 .rightSectionFive{
@@ -457,21 +471,26 @@
 
 .carouselAuthor{
   color: #7d4497;
-  margin-bottom: 0.1em;
+  font-family: 'Playfair Display', serif;
+  font-weight: bolder;
+  margin-bottom: -0.5em;
   
 }
 
 .carouselParagraph{
   width: 25em;
   display: inline-block;
-  margin-top: 0.1em;
-  
+  font-family: 'Manrope', sans-serif;
+  margin-top: -0.5em;
+  margin-bottom: -0.5em;
 }
+
 .buttons{
   display: flex;
   width: 20em;
   justify-content: space-between;
 }
+
 .carouselButtons{
   display: flex;
   justify-content: center;
@@ -481,7 +500,7 @@
 
 .carouselButtons:hover{
   cursor: pointer;
-  color: #7d4497;
+  color: #ae58d6;
 }
 
 /* footer */
@@ -567,6 +586,9 @@
 
   .welcomeButton {
     font-size: 1em;
+  }
+  a{
+    text-decoration: none;
   }
 }
 
@@ -689,7 +711,7 @@
   .rightSectionButtonFour {
     display: flex;
     justify-content: center;
-    
+    text-decoration: none;
     width: 90%;
     margin-top: 0.5em;
     padding: 0.5em;
@@ -735,7 +757,7 @@
 
   .carouselAuthor {
     text-align: center;
-    margin-bottom: 0.5em;
+    margin-bottom: -0.5em;
   }
 
   .carouselParagraph {
