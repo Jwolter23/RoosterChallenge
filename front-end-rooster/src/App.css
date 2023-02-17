@@ -81,6 +81,8 @@
 }
 .welcomeButton:hover{
   cursor: pointer;
+  color: black;
+  box-shadow: -10px 5px 5px #ac5fd1;
 }
 
 /* section One */
@@ -169,6 +171,11 @@
 
 .leftSectionButtonTwo{
   cursor: pointer;
+  
+}
+
+.leftSectionButtonTwo:hover {
+  box-shadow: -10px 5px 5px #f87119;
 }
 
 /* section3 */
@@ -386,6 +393,7 @@
 
   .rightSectionButtonFour:hover{
     cursor: pointer;
+    box-shadow: -10px 5px 5px #f87119;
   }
 
 /* Section 5 */
