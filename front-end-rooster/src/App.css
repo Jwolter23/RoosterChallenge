@@ -25,7 +25,6 @@
 .welcomeText{
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
   justify-content: center;
   align-items: center;
   height: 15em;
@@ -44,17 +43,17 @@
   margin-top: -0.8em;
 }
 
-.roosterLogoBox{
-  border: 1px solid green;
-  
-}
-
 .roosterLogo{
   display: flex;
-  color: white;
-  font-size: 2.5em;
-  margin-left: 3.5em;
-  
+  flex-direction: row;
+  background-image: url(../Assets/logo-white.svg);
+  height: 0.5em;
+  width: 3em;
+  background-repeat: no-repeat;
+  font-size: 6em;
+  margin-left: 1.3em;
+  margin-top: 0.3em;
+  margin-bottom: -0.3em;
 }
 
 .welcomeButton{
@@ -91,7 +90,6 @@
 
 .leftContent{
   width: 30em;
-  border: 1px solid purple;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -112,7 +110,10 @@
 }
 
 .leftSectionHeader{
-  margin-bottom: -0.1em;
+  height: auto;
+  margin: 0;
+  margin-bottom: 0.1em;
+  font-size: 3em;
   color: #7d4497;
 }
 
@@ -145,7 +146,7 @@
   background-color: #f87119;
   color: white;
   border: none;
-  padding: 1.3em;
+  padding: 1.5em 2em;
 }
 
 .leftSectionButtonTwo{
@@ -168,7 +169,6 @@
 
 .leftContentThree{
   width: 30em;
-  border: 1px solid purple;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -190,7 +190,7 @@
 
 .leftSectionHeaderThree{
   margin-bottom: -0.1em;
-  color: #7d4497;
+  
 }
 
 .rightSectionThree {
@@ -312,7 +312,6 @@
     align-items: center;
   }
   .rightContentFour{
-    border: 1px solid purple;
     width: 30em;
   }
   

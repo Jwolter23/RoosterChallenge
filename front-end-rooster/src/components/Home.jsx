@@ -4,15 +4,12 @@ import Carousel from './carousel'
 
 export default function Home () {
 
-    const ratingChanged = (newRating) => {
-        console.log(newRating)
-      }
 
     return(
         <div className="wholeScreen">
             <div className="welcomeScreen">
                     <div className="roosterLogoBox">
-                        <h1 className="roosterLogo">RoosterGrin</h1>
+                        <div className='roosterLogo'></div>
                     </div>
                 <div className="welcomeContent">
                     
@@ -49,7 +46,7 @@ export default function Home () {
             <div className="sectionThree">
                 <div className="leftSectionThree">
                     <div className="leftContentThree">
-                        <h1 className="leftSectionHeaderThree">LOREM IPSUM</h1>
+                        <h1 className="leftSectionHeaderThree">LOREM IPSUM <br></br> DOLOR SIT AMET</h1>
                         <p className="leftSectionBodyThree">Lorem ipsum dolor sit amet, et felis intger. Cras ac, duis nisl magna est sociis, neque in odio vel, sit lobortis erat. Fugit quam, ut pede ut ante, in viverra eros dictum nisl ligula, lacus est vehicula donec. Quam in ac quam. Duis et, non arcu imperdiet sem tellus suspendisse. Condimentum non aliquet sed, quique risus vitae semper duis feugiat.</p>
                         <a className='leftSectionButtonThree' href="https://www.roostergrin.com/" target="_blank"> &gt; Lorem Ipsum</a>
                     </div>
