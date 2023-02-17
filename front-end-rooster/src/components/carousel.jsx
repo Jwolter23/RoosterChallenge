@@ -45,8 +45,8 @@ const Carousel = () => {
         <div className='carousel'>
             
             <div className='carouselContent'>
-                <h3 className='carouselAuthor'>{author}</h3>
-                <p className='carouselParagraph'>{paragraph}</p>
+                <div className='carouselAuthor'>{author}</div>
+                <div className='carouselParagraph'>{paragraph}</div>
                 <div className='buttons'>
                     <h2 className='carouselButtons' onClick={handlePrevious}> <AiOutlineArrowLeft /> </h2>
                     <h2 className='carouselButtons' onClick={handleNext}> <AiOutlineArrowRight /></h2>
