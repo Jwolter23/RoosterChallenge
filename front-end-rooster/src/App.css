@@ -470,18 +470,12 @@
     font-size: 3em;
     
   }
-  .roosterLogo{
-    display: flex;
-    justify-content:left;
-    
 
-  }
-  .roosterLogoBox{
-    margin: 0;
-  }
   .roosterLogo {
-    font-size: 1.5em;
-    margin-left: 1.5em;
+    font-size: 3em;
+    margin-left: 0.5em;
+    margin-bottom: -3em;
+    margin-top: 0.5em;
   }
 
   .welcomeButton {
@@ -650,7 +644,6 @@
   .carouselContent {
     width: 100%;
     margin-top: 1em;
-    border: 1px solid red;
   }
 
   .carouselAuthor {
@@ -672,6 +665,8 @@
     display: flex;
     justify-content: space-around;
     width: 20em;
+    margin-bottom: 0.3em;
+    margin-top: -0.2em;
   }
   .reactStars{
     display: flex;
