@@ -10,7 +10,7 @@ You will need to have knowledge of some key things before you start:
 - how to connect your markup to your scripts and styles
 - front end web development
 
-To run this program locally on your machine please clone this repo and follow the set-up instructions below.
+To run this program locally on your machine please clone this repo and cd into front-end-rooster then follow the set-up instructions below.
 
 <pre>
   npm install
