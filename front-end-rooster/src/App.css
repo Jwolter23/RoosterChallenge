@@ -63,10 +63,13 @@
   animation-delay: 2s;
 }
 
+
 @keyframes fadeIn {
   0% { opacity: 0;}
   100% { opacity: 1;}
 }
+
+
 
 .welcomeButton{
   background-color: #ac5fd1;
@@ -237,7 +240,15 @@
     background: url(../Assets/home-expertise.svg) no-repeat center center;
     background-size: 4em;
     border: 1px solid purple;
+    transition: all .2s ease-in-out;
   }
+
+  .svg1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #7d4497
+  }
+
   .item2 {
     display: flex;
     flex-direction: column;
@@ -257,7 +268,15 @@
     background: url(../Assets/home-hygiene.svg) no-repeat center center;
     background-size: 4em;
     border: 1px solid purple;
+    transition: all .2s ease-in-out;
   }
+
+  .svg2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #7d4497
+  }
+
   .item3{
     display: flex;
     flex-direction: column;
@@ -277,7 +296,15 @@
     background: url(../Assets/home-lab.svg) no-repeat center center;
     background-size: 4em;
     border: 1px solid purple;
+    transition: all .2s ease-in-out;
   }
+
+  .svg3:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #7d4497
+  }
+
   .item4{
     display: flex;
     flex-direction: column;
@@ -297,6 +324,13 @@
     background: url(../Assets/home-retention.svg) no-repeat center center;
     background-size: 4em;
     border: 1px solid purple;
+    transition: all .2s ease-in-out;
+  }
+
+  .svg4:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #7d4497;
   }
 
   .text1, .text2, .text3, .text4 {
@@ -424,6 +458,11 @@
   justify-content: center;
   align-items: center;
   width: 5em;
+}
+
+.carouselButtons:hover{
+  cursor: pointer;
+  color: #7d4497;
 }
 
 /* footer */
