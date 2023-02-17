@@ -10,7 +10,7 @@ You will need to have knowledge of some key things before you start:
 - how to connect your markup to your scripts and styles
 - front end web development
 
-We have supplied an optional development server and some development dependencies for this project, but feel free to use the development framework of your choice (e.g. create-react-app, vue cli, etc). You are not required to use the codebase provided in this repository, but feel free to use it! If you choose to use this codebase, you can run the development server using the commands found below:
+To run this program locally on your machine please clone this repo and follow the set-up instructions below.
 
 <pre>
   npm install
@@ -71,14 +71,14 @@ These required features are requested specifically by the client and should be i
 
 1. What you technologies you used and why (if you only used html, css, and js please explain any templates or frameworks you may have used i.e. bootstrap)
 
-   For this project I decided to use Javascript, React, HTML, and CSS. The main reasons I chose these technologies comes down to a few reasons. Speed, Flexibility, and Performance. I feel extremley comfortable with these technologies and wanted to provide my best work to the Rooster Grin team.
+   For this project I decided to use Javascript, React, HTML, and CSS. The main reasons I chose these technologies comes down to a few reasons. Speed, Flexibility, and Performance. I feel extremley comfortable with these technologies and wanted to provide my best work for the Rooster Grin team.
 
 2. Any struggles you faced when developing with technology you chose
 
-   In my view, this project was relatively straightforward overall. However, in terms of ensuring mobile responsiveness, there are simpler approaches than using CSS Media Queries. For instance, programs such as Bootstrap, which adopt a mobile-first approach, offer a user-friendly solution to this challenge
+   In my view, this project was relatively straightforward overall. However, in terms of ensuring mobile responsiveness, there are simpler approaches than using CSS Media Queries. For example, programs like Bootstrap, which have a mobile-first approach, offer a very user-friendly solution to this challenge.
 
 3. What you enjoyed the most and why
 
-   I really enjoyed this project as a whole. Building out websites is an aspect of software development that I really enjoy and that is exactly what I got to do here. I liked that there was a goal to strive for with the mockup, but that we were also given creative liberty to add in our own style. I think this presents an extremley rewarding challenge.
+   I really enjoyed this project as a whole. Building out websites is an aspect of software development that I really enjoy and that is exactly what I got to do here. I liked that there was a goal to strive for with the mockup, but we were also given creative liberty to add in our own style. I think this presents an extremley rewarding challenge.
 
 If you have any questions please feel free to email me (Matt) at matt.sprague@roostergrin.com
