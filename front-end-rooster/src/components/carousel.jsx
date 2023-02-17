@@ -1,5 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
+import { AiOutlineArrowLeft } from 'react-icons/ai'
+import { AiOutlineArrowRight } from 'react-icons/ai'
 
 const Carousel = () => {
     const [index, setIndex] = useState(0);
@@ -46,8 +48,9 @@ const Carousel = () => {
                 <h3 className='carouselAuthor'>{author}</h3>
                 <p className='carouselParagraph'>{paragraph}</p>
                 <div className='buttons'>
-                    <button className='carouselButtons' onClick={handlePrevious}>Previous</button>
-                    <button className='carouselButtons' onClick={handleNext}>Next</button>
+                    <h2 className='carouselButtons' onClick={handlePrevious}> <AiOutlineArrowLeft /> </h2>
+                    <h2 className='carouselButtons' onClick={handleNext}> <AiOutlineArrowRight /></h2>
+
                 </div>
             </div>
 

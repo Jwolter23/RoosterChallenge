@@ -105,8 +105,8 @@ export default function Home () {
                 <div className='footerContent'>
                     <h4>Follow Us:</h4>
                     <div className='socialsContainer'>
-                    <div className='instagram'></div>
-                    <div className='facebook'></div>
+                    <a href='https://twitter.com/roostergrin?lang=en' target='_blank'><div className='instagram'></div></a>
+                    <a href='https://www.facebook.com/RoosterGrin/' target='_blank'><div className='facebook'></div></a>
                     </div>
                 </div>
 
